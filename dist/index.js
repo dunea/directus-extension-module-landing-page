@@ -15,7 +15,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_private_view = resolveComponent("private-view");
   return openBlock(), createBlock(_component_private_view, { title: "My Custom Module" }, {
     default: withCtx(() => [
-      createTextVNode("Content goes here...")
+      createTextVNode("Content goes here....")
     ]),
     _: 1
     /* STABLE */
@@ -26,7 +26,7 @@ var ModuleComponent = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_re
 var index = defineModule({
   id: "custom",
   name: "Custom",
-  icon: "box",
+  icon: "switch_access",
   routes: [
     {
       path: "",
